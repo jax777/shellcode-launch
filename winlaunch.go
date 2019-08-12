@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	sc := []byte("\xfc\x48")
+	sc := []byte("\xfc\x48\x83")
 	winshellcode.Run(sc)
 }
