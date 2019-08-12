@@ -12,14 +12,12 @@ copy 至 $GOPATH/src 路径下
 在当前目录打开cmd
 - 32 位 运行 
 ```
-set CGO_ENABLED=0
 set GOOS=windows 
 set GOARCH=386 
 go build winlaunch.go
 ```
 - 64 位 运行 win_64.bat
 ```
-set CGO_ENABLED=0 
 set GOOS=windows 
 set GOARCH=amd64 
 go build winlaunch.go
