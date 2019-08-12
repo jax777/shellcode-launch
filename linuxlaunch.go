@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	sc := []byte("xaa\x51\xc3.........")
-	winshellcode.Run(sc)
+	sc := []byte("xaa\x51")
+	linuxshellcode.Run(sc)
 }
