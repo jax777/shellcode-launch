@@ -29,6 +29,6 @@ go build winlaunch.go
 生成shellcode
 修改 `linuxlaunch.go` 文件sc 变量
 - 32 位 运行
-`CGO_ENABLED=0 GOOS=linux GOARCH=386 go build linuxlaunch.go`
+`CGO_ENABLED=1 GOOS=linux GOARCH=386 go build linuxlaunch.go`
 - 64 位 运行
-`CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build linuxlaunch.go`
+`CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build linuxlaunch.go`
